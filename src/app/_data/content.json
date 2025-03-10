@@ -12,7 +12,7 @@
             "hero": {
                 "title": "Le goût de l'excellence",
                 "subtitle": "directement chez vous.",
-                "cta": {"text": "Découvrez nos viandes", "href": "/"}
+                "cta": {"text": "Découvrez nos viandes", "href": "/nos-produits"}
             },
             "advise": {
                 "author": "Thomas L.",
@@ -47,7 +47,7 @@
             "history": {
                 "title": "Une Tradition de Goût et de Passion",
                 "subtitle": "Artisan boucher passionné, Maboucheriefrancaise vous propose des viandes de qualité, sélectionnées avec soin et découpées selon vos envies.",
-                "cta": {"text": "Découvrez notre histoire", "href": "/"}
+                "cta": {"text": "Découvrez notre histoire", "href": "/notre-histoire"}
             },
             "products": {
                 "title": "Nos Produits",
@@ -83,7 +83,7 @@
                       "href": "/nos-produits"                   
                     }
                 ],                  
-                "cta": {"text": "Découvrez nos viandes", "href": "/"}
+                "cta": {"text": "Découvrez nos viandes", "href": "/nos-produits"}
             },
             "newsletter": {
                 "title": "Nous Rejoindre",

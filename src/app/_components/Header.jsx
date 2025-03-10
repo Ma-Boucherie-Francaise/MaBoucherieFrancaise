@@ -4,8 +4,8 @@ import content from "@/app/_data/content.json";
 
 const Header = () => {
   return (
-    <header className="px-5 py-5 flex justify-between items-center">
-      <div className="lg:hidden flex items-center justify-between w-full">
+    <header className="px-5 py-5 flex justify-between items-center fixed md:static bg-white top-0 left-0 right-0 z-10">
+      <div className="lg:hidden flex items-center justify-between w-full ">
         <Image
           src="/images/logo/mbf-red.png"
           width={208}
@@ -19,6 +19,7 @@ const Header = () => {
           <div className="w-6 h-[3px] bg-[var(--color-primary)] rounded-2xl"></div>
         </div>
       </div>
+
       <div className="hidden w-full lg:flex md:justify-between relative py-2">
         <nav>
           <ul className="flex gap-8">
