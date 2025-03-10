@@ -1,0 +1,390 @@
+{
+    "header": {
+        "cart": {
+            "href":"/"
+        },
+        "account": {
+            "href":"/"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Le goût de l'excellence",
+                "subtitle": "directement chez vous.",
+                "cta": {"text": "Découvrez nos viandes", "href": "/"}
+            },
+            "advise": {
+                "author": "Thomas L.",
+                "content": "Viande d'une qualité exceptionnelle, tendre et savouresue, avec une fraîcheur irréprochable !"
+            },
+            "quality": [
+                {
+                    "imgSrc": "/images/content/eleveurs-partenaires.png",
+                    "width": 187,
+                    "height": 187,
+                    "title": "Éleveurs partenaires"
+                },
+                {
+                    "imgSrc": "/images/content/circuit-court.png",
+                    "width": 187,
+                    "height": 187,
+                    "title": "Circuit court"
+                },
+                {
+                    "imgSrc": "/images/content/fraicheur-garantie.png",
+                    "width": 187,
+                    "height": 187,
+                    "title": "Fraîcheur garantie"
+                },
+                {
+                    "imgSrc": "/images/content/savoir-faire-traditionnel.png",
+                    "width": 187,
+                    "height": 187,
+                    "title": "Savoir-faire traditionnel"
+                }
+            ],
+            "history": {
+                "title": "Une Tradition de Goût et de Passion",
+                "subtitle": "Artisan boucher passionné, Maboucheriefrancaise vous propose des viandes de qualité, sélectionnées avec soin et découpées selon vos envies.",
+                "cta": {"text": "Découvrez notre histoire", "href": "/"}
+            },
+            "products": {
+                "title": "Nos Produits",
+                "category": [
+                    {
+                      "image": {"href": "/images/content/categorie-agneau.png", "width": 2813, "height": 1584},
+                      "name": "Agneau",
+                      "startingPrice": 10.99,
+                      "href": "/nos-produits"
+                    },
+                    {
+                      "image": {"href": "/images/content/categorie-boeuf.png", "width": 4134, "height": 2327},
+                      "name": "Boeuf",
+                      "startingPrice": 10.99,
+                      "href": "/nos-produits"
+                    },
+                    {
+                      "image": {"href": "/images/content/categorie-porc.png", "width": 2813, "height": 1584},
+                      "name": "Porc",
+                      "startingPrice": 10.99,
+                      "href": "/nos-produits"
+                    },
+                    {
+                      "image": {"href": "/images/content/categorie-veau.png", "width": 2813, "height": 1584},
+                      "name": "Veau",
+                      "startingPrice": 10.99,
+                      "href": "/nos-produits"
+                    },
+                    {
+                      "image": {"href": "/images/content/categorie-volailles.png", "width": 2813, "height": 1584},
+                      "name": "Volailles",
+                      "startingPrice": 10.99,
+                      "href": "/nos-produits"                   
+                    }
+                ],                  
+                "cta": {"text": "Découvrez nos viandes", "href": "/"}
+            },
+            "newsletter": {
+                "title": "Nous Rejoindre",
+                "subtitle": "Laissez nous vous combler, inscrivez-vous pour recevoir des actualités, recettes et cadeaux exclusifs",
+                "cta": {"text": "Je m'inscris", "href": "/"}
+            },
+            "faq": {
+                "title": "Foire Aux Questions",
+                "questions": [
+                    {
+                        "question": "D’où proviennent vos viandes ?",
+                        "answer": "Nos viandes proviennent pour la volaille des Landes, le bœuf Limousin, l’Angus d’Ecosse, le porc (…), le Veau (….) avec un engagement pour des produits locaux et de qualité."
+                    },
+                    {
+                        "question": "Quels sont les délais de livraison ?",
+                        "answer": "Les délais de livraison varient entre [précisez, ex. : 24 et 48 heures selon votre localisation."
+                    },
+                    {
+                        "question": "Comment passer une commande sur votre site ?",
+                        "answer": "Il vous suffit de sélectionner vos produits, de les ajouter à votre panier et de finaliser votre commande en suivant les étapes indiquées."
+                    }
+                ],
+                "help":{
+                    "phrase": "Toujours pas de réponse à votre question ?",
+                    "redirection": "Consultez notre FAQ complète"
+                }
+            },
+            "delivery": {
+                "title": "Livraison & Click and Collect",
+                "subtitle": "Commandez en ligne votre découpe personnalisée et récupérez-la en boutique grâce au click and collect, ou optez pour la livraison à domicile.",
+                "cta": [
+                    {"text": "Livraison", "href": "/"},
+                    {"text": "Click and collect", "href": "/"}                    
+                ]
+            },
+            "lastCta": {
+                "title": "Découvrez l’excellence",
+                "subtitle": "Offrez-vous une viande d’exception, livrée directement chez vous!",
+                "cta": {"text": "Commandez maintenant", "href": "/"}
+            }
+        },
+        "history": {
+
+        },
+        "products": {
+            "title": "Nos Produits",
+            "products": {
+                "Volailles": {
+                    "Dinde": [
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Dinde en cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        }
+                    ],
+                    "Canard": [
+                        
+                    ],
+                    "Poulet": [
+                        
+                    ],
+                    "Pintade": [
+                        
+                    ]
+                },
+                "Boeuf": [
+                        
+                ],
+                "Porc": [
+                        
+                ],
+                "Agneau": [
+                        
+                ],
+                "Veau": [
+                        
+                ]
+            }
+        },
+        "faq":{
+            "title": "Foire Aux Questions",
+            "subtitle": "Nous sommes là pour vous aider. Explorez les ressources d’aide pour chaque catégorie concernée afin de trouver le meilleur moyen de résoudre votre problème.",
+            "questions": {
+                "Questions Générales": [
+                    {
+                    "question": "Puis-je passer commande sans créer de compte ?",
+                    "answer": "Oui, il est possible de commander en tant qu’invité, mais nous vous recommandons de créer un compte pour suivre vos commandes plus facilement."
+                    },
+                    {
+                    "question": "Proposez-vous des conseils de préparation pour vos viandes ?",
+                    "answer": "Oui, chaque fiche produit contient des recommandations de cuisson. Vous pouvez également consulter nos recettes et astuces sur notre blog."
+                    },
+                    {
+                    "question": "Avez-vous un service client pour répondre à mes questions ?",
+                    "answer": "Oui, notre service client est disponible [précisez horaires et moyens de contact, ex. : par téléphone, e-mail ou chat."
+                    }
+                ],
+                "Produits": [
+                    {
+                    "question": "D’où proviennent vos viandes ?",
+                    "answer": "Nos viandes proviennent pour la volaille des Landes, le bœuf Limousin, l’Angus d’Ecosse, le porc (…), le Veau (….) avec un engagement pour des produits locaux et de qualité."
+                    },
+                    {
+                    "question": "Proposez-vous des produits certifiés ou labellisés ?",
+                    "answer": "Oui, certains de nos produits sont certifiés : bio, Label Rouge, AOP, AOC, et ces informations sont indiquées sur chaque fiche produit."
+                    }
+                ],
+                "Commandes": [
+                    {
+                    "question": "Comment passer une commande sur votre site ?",
+                    "answer": "Il vous suffit de sélectionner vos produits, de les ajouter à votre panier et de finaliser votre commande en suivant les étapes indiquées."
+                    },
+                    {
+                    "question": "Puis-je modifier ou annuler ma commande après validation ?",
+                    "answer": "Oui, vous pouvez modifier ou annuler votre commande jusqu’à 24 heures avant la préparation, en contactant notre service client."
+                    }
+                ],  
+                "Paiement": [
+                    {
+                    "question": "Quels sont les moyens de paiement acceptés ?",
+                    "answer": "Nous acceptons les paiements par carte bancaire, PayPal et autres moyens éventuels : ticket restaurant, Swile."
+                    },
+                    {
+                    "question": "Le paiement en ligne est-il sécurisé ?",
+                    "answer": "Oui, toutes les transactions sont protégées grâce à un système de cryptage SSL garantissant la sécurité de vos données."
+                    }
+                ],
+                "Livraison": [
+                    {
+                    "question": "Quels sont vos délais de livraison ?",
+                    "answer": "Les délais de livraison varient entre [précisez, ex. : 24 et 48 heures selon votre localisation." 
+                    },
+                    {
+                    "question": "Comment garantissez-vous la fraîcheur des produits lors de la livraison ?",
+                    "answer": "Nos produits sont emballés sous vide et transportés dans des emballages réfrigérés pour garantir leur fraîcheur jusqu’à la livraison."
+                    }
+                ],
+                "Click & Collect": [
+                    {
+                    "question": "Proposez-vous le retrait en magasin ?",
+                    "answer": "Oui, avec notre service click and collect, vous pouvez commander en ligne et récupérer votre commande directement à notre boutique au 103 Boulevard Jourdan, 75014 Paris."
+                    }
+                ] 
+            }                
+        }
+    },
+    "footer": {
+        "daysOpen": "Lundi - Vendredi",
+        "hoursOpen": "08:00 - 18:00",
+        "secondDaysOpen": false,
+        "secondHoursOpen": false,
+        "title": "Rejoignez Nous",
+        "subtitle": "Inscrivez-vous pour recevoir des actualités, recettes et cadeaux exclusifs"
+    }
+}
