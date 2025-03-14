@@ -122,10 +122,52 @@
             "lastCta": {
                 "title": "Découvrez l’excellence",
                 "subtitle": "Offrez-vous une viande d’exception, livrée directement chez vous!",
-                "cta": {"text": "Commandez maintenant", "href": "/"}
+                "cta": {"text": "Commandez maintenant", "href": "/nos-produits"}
             }
         },
         "history": {
+            "title": "Notre Histoire",
+            "intro" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "history":{
+                "image": {"href": "/images/content/boutique-histoire.png", "width": 648,  "height": 528},
+                "text": [
+                    {
+                        "title" : "Title",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                    },
+                    {
+                        "title" : "Title",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                    },
+                    {
+                        "title" : "Title",
+                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                    }
+                ]
+            },
+            "promesses" : {
+                "title": "La Promesse de l'Excellence",
+                "first_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
+                "second_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
+                "quality": [
+                    {
+                        "image": {"href": "/images/content/eleveurs-partenaires_histoire.png", "width": 72, "height": 71},
+                        "title": "Éleveurs Partenaires"
+                    },
+                    {
+                        "image": {"href": "/images/content/fraicheur-garantie_histoire.png", "width": 72, "height": 65},
+                        "title": "Fraîcheur Garantie"
+                    },
+                    {
+                        "image": {"href": "/images/content/savoir-faire-traditionnel_histoire.png", "width": 72, "height": 52},
+                        "title": "Savoir-faire Traditionel"
+                    },
+                    {
+                        "image": {"href": "/images/content/circuit-court_histoire.png", "width": 72, "height": 84},
+                        "title": "Circuit Court"
+                    }
+                ]
+            }
 
         },
         "products": {

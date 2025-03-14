@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import TopBar from "./_components/TopBar";
 import Header from "./_components/Header";
+import Footer from "./_components/Footer";
 
 const awesomeSerif = localFont({
   src: "./fonts/AwesomeSerif-BoldExtraTall.otf",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <TopBar text={"-10 % de réduction sur votre première commande"} />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

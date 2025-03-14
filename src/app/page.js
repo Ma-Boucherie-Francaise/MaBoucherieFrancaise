@@ -1,10 +1,8 @@
-import Image from "next/image";
 import AdviseSection from "./_container/home-page/AdviseSection";
 import HeroSection from "./_container/home-page/HeroSection";
 import Separation from "./_components/Separation";
 import QualitySection from "./_container/home-page/QualitySection";
 import History from "./_container/home-page/History";
-import Footer from "./_components/Footer";
 import LastCta from "./_container/home-page/LastCta";
 import DeliverySection from "./_container/home-page/DeliverySection";
 import Newsletter from "./_container/home-page/Newsletter";
@@ -24,7 +22,6 @@ export default function Home() {
       <FAQ />
       <DeliverySection />
       <LastCta />
-      <Footer />
     </div>
   );
 }

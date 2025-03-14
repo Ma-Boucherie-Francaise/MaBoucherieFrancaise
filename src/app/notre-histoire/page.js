@@ -1,7 +1,8 @@
 import React from "react";
+import MainSection from "../_container/history-page/MainSection";
 
 const page = () => {
-  return <div>Notre Histoire</div>;
+  return <MainSection />;
 };
 
 export default page;

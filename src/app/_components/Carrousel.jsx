@@ -21,7 +21,7 @@ const Carrousel = () => {
   };
 
   return (
-    <section className=" py-[90px] md:py-28 max-w-[1440px] mx-auto flex flex-col gap-5 md:gap-10">
+    <section className=" py-[90px] md:py-28 max-w-[1440px] mx-auto flex flex-col gap-5 md:gap-8">
       <div className="flex justify-between items-center">
         <h2 className="px-5 text-4xl mb-7 md:text-6xl">
           {content.pages.home.products.title}
@@ -95,12 +95,12 @@ const Carrousel = () => {
           </div>
         </div>
       </div>
-      <div className="overflow-x-hidden md:mt-11">
+      <div className="overflow-x-hidden">
         <div
           style={{
             transform: `translateX(-${calculTransform * currentImage}%)`,
           }}
-          className="flex gap-8 px-5 overflow-auto md:overflow-visible"
+          className="flex gap-8 px-5 py-5 overflow-auto md:overflow-visible"
         >
           {content.pages.home.products.category.map(
             ({ image, name, startingPrice, href }, i) => {
@@ -113,7 +113,7 @@ const Carrousel = () => {
                   key={i}
                 >
                   <article className="shrink-0 h-fit w-full">
-                    <div className="w-[290px] h-[290px] md:w-[400px] md:h-[400px] rounded-2xl shadow-card">
+                    <div className="w-[290px] h-[290px] md:w-[400px] md:h-[400px] rounded-2xl shadow-card hover:-translate-y-2.5">
                       <Image
                         src={image.href}
                         width={image.width}

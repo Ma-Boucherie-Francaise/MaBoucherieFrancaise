@@ -127,7 +127,7 @@ const ProductSection = () => {
 
   return (
     <section className="max-w-[1440px] mx-auto py-[90px] md:py-28 px-5">
-      <h1 className="text-4xl mb-2 md:text-6xl">
+      <h1 className="text-6xl sm:text-8xl leading-16 sm:leading-24 mb-5">
         {content.pages.products.title}
       </h1>
       <div className="flex flex-col lg:flex-row gap-3 mt-10 pb-5">

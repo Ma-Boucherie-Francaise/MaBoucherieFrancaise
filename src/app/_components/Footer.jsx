@@ -1,12 +1,21 @@
+"use client";
 import React from "react";
 import PrimaryButton from "./PrimaryButton";
 import Image from "next/image";
 import Link from "next/link";
 import content from "@/app/_data/content.json";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
+  const pathname = usePathname();
   return (
-    <footer className="bg-[var(--color-primary)] px-5 py-5  text-white ">
+    <footer
+      className={`${
+        pathname === "/notre-histoire"
+          ? "bg-[var(--color-secondary)]"
+          : "bg-[var(--color-primary)]"
+      } px-5 py-5  text-white`}
+    >
       <div className="flex flex-col gap-8  max-w-[1440px] mx-auto">
         <div className="md:mb-10">
           <h2 className="text-4xl md:text-6xl mb-2">Rejoignez Nous</h2>

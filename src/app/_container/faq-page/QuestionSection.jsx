@@ -20,7 +20,7 @@ const QuestionSection = () => {
   return (
     <section className="max-w-[1440px] mx-auto pt-[40px] pb-[90px] md:py-28 px-5">
       <div className="mb-10 lg:mb-20">
-        <h1 className="text-4xl mb-2 md:text-6xl md:mb-3">
+        <h1 className="text-6xl sm:text-8xl leading-16 sm:leading-24 mb-5">
           {content.pages.faq.title}
         </h1>
         <p className="text-sm font-medium md:text-lg md:w-3/5">
