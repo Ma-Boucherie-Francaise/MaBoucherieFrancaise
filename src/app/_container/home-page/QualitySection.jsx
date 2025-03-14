@@ -11,7 +11,7 @@ const QualitySection = () => {
             src={q.imgSrc}
             width={q.width}
             height={q.height}
-            className=" w-[185px] h-auto"
+            className=" w-[185px] h-auto shadow-quality rounded-full"
             alt={q.title}
           />
           <p className="text-center font-semibold text-lg w-2/5 md:w-3/6 leading-6 ">

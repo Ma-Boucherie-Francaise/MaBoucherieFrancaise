@@ -11,6 +11,7 @@ const AdviseSection = () => {
           width={77}
           height={65}
           className="absolute -top-5 w-2/12 max-w-[77px] h-auto left-2/4 -translate-x-2/4"
+          alt=""
         />
         <div className="text-center md:text-2xl ">
           <p className="w-3/5 md:w-2/5 mx-auto">

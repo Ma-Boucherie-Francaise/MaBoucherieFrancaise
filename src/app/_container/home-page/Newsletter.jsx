@@ -12,6 +12,7 @@ const Newsletter = () => {
             src="/images/ascent/pattern-red-3.png"
             width={153}
             height={50}
+            alt=""
           />
         </div>
         <h2 className="text-4xl mb-2 md:text-6xl md:mb-3">

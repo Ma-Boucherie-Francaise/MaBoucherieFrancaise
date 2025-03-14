@@ -1,13 +1,21 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import content from "@/app/_data/content.json";
 import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import ProductCard from "@/app/_components/ProductCard";
+import { useSearchParams } from "next/navigation";
 
 const ProductSection = () => {
+  const searchParams = useSearchParams();
+  const category = searchParams.get("category");
+
   const productShownPerPage = 9;
   const [currentIndex, setCurrentIndex] = useState(1);
+
+  useEffect(() => {
+    setSelected({ ...selected, category });
+  }, [category]);
 
   const [filterOpened, setFilterOpened] = useState({
     isOpen: false,
@@ -274,6 +282,9 @@ const ProductSection = () => {
                   Précédent
                 </button>
               )}
+              <button className="block md:hidden px-3 py-1 border rounded-lg cursor-pointer bg-[var(--color-primary)] text-white">
+                {currentIndex}
+              </button>
               {Array.from({ length: totalPages }, (_, i) => (
                 <button
                   key={i}
@@ -281,7 +292,7 @@ const ProductSection = () => {
                     setCurrentIndex(i + 1);
                     window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
-                  className={`px-3 py-1 border rounded-lg cursor-pointer ${
+                  className={`hidden md:block px-3 py-1 border rounded-lg cursor-pointer ${
                     currentIndex === i + 1
                       ? "bg-[var(--color-primary)] text-white"
                       : ""

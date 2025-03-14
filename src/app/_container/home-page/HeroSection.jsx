@@ -6,12 +6,12 @@ import content from "@/app/_data/content.json";
 const HeroSection = () => {
   return (
     <section className="px-5 flex flex-col items-center gap-5 pb-[90px] lg:py-10 max-w-[1440px] md:mx-auto">
-      <div className="w-full lg:flex lg:items-center lg:gap-10">
+      <div className="grid grid-cols-1 w-full lg:grid-cols-5 items-center">
         <Image
           src="/images/content/hero-meat-img.png"
           width={915}
           height={725}
-          className="w-full md:w-3/4 lg:w-full h-auto mx-auto"
+          className="w-full md:w-3/4 lg:w-full h-auto mx-auto col-span-3"
           alt="Logo de Ma Boucherie Française"
         />
 
