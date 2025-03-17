@@ -100,7 +100,7 @@ const Carrousel = () => {
           style={{
             transform: `translateX(-${calculTransform * currentImage}%)`,
           }}
-          className="flex gap-8 px-5 py-5 overflow-auto md:overflow-visible"
+          className="flex gap-8 px-5 py-5 overflow-auto md:overflow-visible transition-transform duration-650 ease-[cubic-bezier(0.65,0,0.35,1)]"
         >
           {content.pages.home.products.category.map(
             ({ image, name, startingPrice, href }, i) => {
