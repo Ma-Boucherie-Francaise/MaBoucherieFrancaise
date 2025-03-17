@@ -31,7 +31,7 @@ const MainSection = () => {
             alt="Image de la boutique Ma Boucherie Française"
             className="w-full"
           />
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-10">
             {content.pages.history.history.text.map((text, i) => (
               <div key={i}>
                 <p className="text-2xl font-semibold mb-2">{text.title}</p>
@@ -62,10 +62,10 @@ const MainSection = () => {
                   src={quality.image.href}
                   width={quality.image.width}
                   height={quality.image.height}
-                  className="w-[72px] h-[72px"
+                  className="w-[100px] h-[100px]"
                   alt={quality.title}
                 />
-                <p className="text-2xl font-semibold mb-2 w-2/5">
+                <p className="text-xl font-semibold mb-2 w-2/5">
                   {quality.title}
                 </p>
               </div>

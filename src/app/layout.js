@@ -4,6 +4,7 @@ import "./globals.css";
 import TopBar from "./_components/TopBar";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
+import Loader from "./_components/Loader";
 
 const awesomeSerif = localFont({
   src: "./fonts/AwesomeSerif-BoldExtraTall.otf",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${awesomeSerif.variable} ${golosText.variable} antialiased`}
       >
+        <Loader />
         <TopBar text={"-10 % de réduction sur votre première commande"} />
         <Header />
         {children}
