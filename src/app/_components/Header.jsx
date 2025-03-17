@@ -26,7 +26,7 @@ const Header = () => {
             alt="Logo de Ma Boucherie Française"
           />
         </Link>
-        <div className={`flex flex-col gap-1`}>
+        <button className={`flex flex-col gap-1 cursor-pointer`}>
           <div
             className={`w-6 h-[3px] ${
               pathname === "/notre-histoire"
@@ -48,7 +48,7 @@ const Header = () => {
                 : "bg-[var(--color-primary)] "
             } rounded-2xl`}
           ></div>
-        </div>
+        </button>
       </div>
 
       <div className="hidden w-full lg:flex md:justify-between relative py-2">

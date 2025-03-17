@@ -18,11 +18,11 @@ const Loader = () => {
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
+    window.scrollTo(0, 0);
 
     const finishLoading = () => {
       setTimeout(() => {
         setIsLoading(false);
-        window.scrollTo(0, 0);
         document.body.style.overflow = "auto";
       }, 2000);
     };

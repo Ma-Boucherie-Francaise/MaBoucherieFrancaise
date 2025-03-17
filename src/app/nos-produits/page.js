@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { Suspense } from "react";
 import ProductSection from "../_container/product-page/ProductSection";
 
 const page = () => {
@@ -14,7 +14,9 @@ const page = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <ProductSection />
+      <Suspense fallback={<div>Chargement...</div>}>
+        <ProductSection />
+      </Suspense>
     </main>
   );
 };
