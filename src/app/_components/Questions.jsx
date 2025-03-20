@@ -9,17 +9,17 @@ const Questions = ({ i, opened, setOpened, question, answer }) => {
         <div
           className={`flex justify-between items-center gap-2 ${
             isOpen ? "pb-4" : "pb-0"
-          } transition-all duration-300 cursor-pointer`}
+          } transition-all duration-300 cursor-pointer group`}
           onClick={() => setOpened(isOpen ? false : i)}
         >
           <p className="font-medium text-sm md:text-lg">{question}</p>
-          <button className="min-w-8 w-8 h-8 rounded-full border-2 border-[var(--color-primary)] relative hover:bg-[var(--color-primary)] group cursor-pointer transition-[background] duration-300">
+          <button className="min-w-8 w-8 h-8 rounded-full border-2 border-[var(--color-primary)] relative group-hover:bg-[var(--color-primary)] group cursor-pointer transition duration-300">
             <div
               className={` w-4 h-0.5 bg-[var(--color-primary)] rounded-full absolute left-2/4 -translate-x-2/4 ${
                 isOpen ? "rotate-0" : "rotate-90"
               } group-hover:bg-white transition-all duration-300`}
             ></div>
-            <div className="w-4 h-0.5 bg-[var(--color-primary)] rounded-full absolute left-2/4 -translate-x-2/4 group-hover:bg-white transition-[background] duration-300"></div>
+            <div className="w-4 h-0.5 bg-[var(--color-primary)] rounded-full absolute left-2/4 -translate-x-2/4 group-hover:bg-white transition duration-300"></div>
           </button>
         </div>
         {isOpen && (

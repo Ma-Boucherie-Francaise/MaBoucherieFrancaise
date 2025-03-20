@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ma Boucherie Française
 
-## Getting Started
+![Logo of Ma Boucherie Française](/public/images/logo/mbf-white.png)
 
-First, run the development server:
+Welcome to **Ma Boucherie Française** – your online butcher shop dedicated to fresh, artisanal, and French meat.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 1. Project Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Ma Boucherie Française** is a website that allows you to:
+- Discover a wide catalogue of meats and cuts.
+- Place orders online via a secure platform.
+- Choose between delivery or in-store pickup (click & collect).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 2. Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Product Catalogue**: Explore a variety of meats and cuts.
+- **Responsive Interface**: Enjoy an optimized experience on mobile, tablet, and desktop devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 3. Technologies Used
 
-## Deploy on Vercel
+- **Front-end**: HTML, CSS, JavaScript (with [React](https://reactjs.org/))
+- **Hosting**: Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 4. Installation and Deployment
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- A package manager (npm or yarn)
+- Git
+
+### Installation Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Ma-Boucherie-Francaise/MaBoucherieFrancaise.git
