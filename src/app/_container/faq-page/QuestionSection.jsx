@@ -42,6 +42,7 @@ const QuestionSection = () => {
                 className={`${
                   filterOpened ? "rotate-180" : "rotate-0"
                 } transition-rotation duration-300`}
+                alt="chevron ouverture questions foire aux questions de Ma Boucherie Française"
               />
             </div>
             {filterOpened && (

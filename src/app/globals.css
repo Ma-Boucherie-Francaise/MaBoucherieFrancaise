@@ -23,3 +23,21 @@ h5,
 h6 {
   font-family: var(--font-awesome-serif);
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #630000;
+  border-radius: 15px;
+}

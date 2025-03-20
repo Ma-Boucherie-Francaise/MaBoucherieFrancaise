@@ -42,12 +42,19 @@ const Loader = () => {
     <AnimatePresence>
       {isLoading && (
         <motion.div
-          className="fixed inset-0 z-50 bg-[var(--color-secondary)] h-screen w-screen grid place-content-center"
+          className="fixed inset-0 z-50 bg-[var(--color-secondary)] h-screen w-screen grid place-content-center h-screen w-screen"
           variants={loaderVariants}
           initial="initial"
           animate="animate"
           exit="exit"
         >
+          <Image
+            src="/images/ascent/pattern-white-3.png"
+            width="153"
+            height="31"
+            className="absolute bottom-10 right-10 z-[60] w-[125px]"
+            alt="Pattern Ma Boucherie Française"
+          />
           <Image
             src="/images/logo/mbf-white-stylised.png"
             width="196"
