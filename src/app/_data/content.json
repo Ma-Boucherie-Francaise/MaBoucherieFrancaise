@@ -20,25 +20,25 @@
             },
             "quality": [
                 {
-                    "imgSrc": "/images/content/eleveurs-partenaires.png",
+                    "imgSrc": "/images/content/eleveurs-partenaires.webp",
                     "width": 187,
                     "height": 187,
                     "title": "Éleveurs partenaires"
                 },
                 {
-                    "imgSrc": "/images/content/circuit-court.png",
+                    "imgSrc": "/images/content/circuit-court.webp",
                     "width": 187,
                     "height": 187,
                     "title": "Circuit court"
                 },
                 {
-                    "imgSrc": "/images/content/fraicheur-garantie.png",
+                    "imgSrc": "/images/content/fraicheur-garantie.webp",
                     "width": 187,
                     "height": 187,
                     "title": "Fraîcheur garantie"
                 },
                 {
-                    "imgSrc": "/images/content/savoir-faire-traditionnel.png",
+                    "imgSrc": "/images/content/savoir-faire-traditionnel.webp",
                     "width": 187,
                     "height": 187,
                     "title": "Savoir-faire traditionnel"
@@ -53,31 +53,31 @@
                 "title": "Nos Produits",
                 "category": [
                     {
-                      "image": {"href": "/images/content/categorie-agneau.png", "width": 2813, "height": 1584},
+                      "image": {"href": "/images/content/categorie-agneau.webp", "width": 2813, "height": 1584},
                       "name": "Agneau",
                       "startingPrice": 10.99,
                       "href": "/nos-produits"
                     },
                     {
-                      "image": {"href": "/images/content/categorie-boeuf.png", "width": 4134, "height": 2327},
+                      "image": {"href": "/images/content/categorie-boeuf.webp", "width": 4134, "height": 2327},
                       "name": "Boeuf",
                       "startingPrice": 10.99,
                       "href": "/nos-produits"
                     },
                     {
-                      "image": {"href": "/images/content/categorie-porc.png", "width": 2813, "height": 1584},
+                      "image": {"href": "/images/content/categorie-porc.webp", "width": 2813, "height": 1584},
                       "name": "Porc",
                       "startingPrice": 10.99,
                       "href": "/nos-produits"
                     },
                     {
-                      "image": {"href": "/images/content/categorie-veau.png", "width": 2813, "height": 1584},
+                      "image": {"href": "/images/content/categorie-veau.webp", "width": 2813, "height": 1584},
                       "name": "Veau",
                       "startingPrice": 10.99,
                       "href": "/nos-produits"
                     },
                     {
-                      "image": {"href": "/images/content/categorie-volailles.png", "width": 2813, "height": 1584},
+                      "image": {"href": "/images/content/categorie-volailles.webp", "width": 2813, "height": 1584},
                       "name": "Volailles",
                       "startingPrice": 10.99,
                       "href": "/nos-produits"                   
@@ -129,7 +129,7 @@
             "title": "Notre Histoire",
             "intro" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
             "history":{
-                "image": {"href": "/images/content/boutique-histoire.png", "width": 648,  "height": 528},
+                "image": {"href": "/images/content/boutique-histoire.webp", "width": 648,  "height": 528},
                 "text": [
                     {
                         "title" : "Title",
@@ -151,19 +151,19 @@
                 "second_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
                 "quality": [
                     {
-                        "image": {"href": "/images/content/eleveurs-partenaires_histoire.png", "width": 72, "height": 71},
+                        "image": {"href": "/images/content/eleveurs-partenaires_histoire.webp", "width": 72, "height": 71},
                         "title": "Éleveurs Partenaires"
                     },
                     {
-                        "image": {"href": "/images/content/fraicheur-garantie_histoire.png", "width": 72, "height": 65},
+                        "image": {"href": "/images/content/fraicheur-garantie_histoire.webp", "width": 72, "height": 65},
                         "title": "Fraîcheur Garantie"
                     },
                     {
-                        "image": {"href": "/images/content/savoir-faire-traditionnel_histoire.png", "width": 72, "height": 52},
+                        "image": {"href": "/images/content/savoir-faire-traditionnel_histoire.webp", "width": 72, "height": 52},
                         "title": "Savoir-faire Traditionel"
                     },
                     {
-                        "image": {"href": "/images/content/circuit-court_histoire.png", "width": 72, "height": 84},
+                        "image": {"href": "/images/content/circuit-court_histoire.webp", "width": 72, "height": 84},
                         "title": "Circuit Court"
                     }
                 ]
@@ -178,154 +178,154 @@
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         },
                         {
                             "name": "Dinde en cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.jpg", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
                         }
