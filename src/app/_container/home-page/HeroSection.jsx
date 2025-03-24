@@ -29,6 +29,7 @@ const HeroSection = () => {
             text={content.pages.home.hero.cta.text}
             textColor={"text-white"}
             bgColor={"bg-[var(--color-primary)]"}
+            aria-label={content.pages.home.hero.cta.text}
           />
         </div>
       </div>

@@ -18,15 +18,17 @@ const DeliverySection = () => {
         <div className="flex flex-col gap-2 mt-7 md:flex-row">
           <PrimaryButton
             text={content.pages.home.delivery.cta[0].text}
-            href={content.pages.home.delivery.cta[1].href}
+            href={content.pages.home.delivery.cta[0].href}
             textColor={"text-[var(--color-primary)]"}
             bgColor={"bg-white"}
+            aria-label={content.pages.home.delivery.cta[0].text}
           />
           <SecondaryButton
             text={content.pages.home.delivery.cta[1].text}
             href={content.pages.home.delivery.cta[1].href}
             textColor={"text-white"}
             borderColor={"border-white"}
+            aria-label={content.pages.home.delivery.cta[1].text}
           />
         </div>
       </div>

@@ -27,6 +27,7 @@ const LastCta = () => {
         text={content.pages.home.lastCta.cta.text}
         textColor={"text-white"}
         bgColor={"bg-[var(--color-primary)]"}
+        aria-label={content.pages.home.lastCta.cta.text}
       />
     </section>
   );

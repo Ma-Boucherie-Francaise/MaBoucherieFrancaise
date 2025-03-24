@@ -26,6 +26,7 @@ const History = () => {
         text={content.pages.home.history.cta.text}
         bgColor={"bg-[var(--color-primary)]"}
         textColor={"text-white"}
+        aria-label={content.pages.home.history.cta.text}
       />
     </section>
   );
