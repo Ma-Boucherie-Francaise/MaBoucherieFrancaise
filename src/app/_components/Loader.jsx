@@ -42,7 +42,7 @@ const Loader = () => {
     <AnimatePresence>
       {isLoading && (
         <motion.div
-          className="fixed inset-0 z-50 bg-[var(--color-secondary)] h-screen w-screen grid place-content-center h-screen w-screen"
+          className="fixed inset-0 z-50 bg-[var(--color-secondary)] grid place-content-center h-screen w-screen"
           variants={loaderVariants}
           initial="initial"
           animate="animate"
@@ -60,6 +60,7 @@ const Loader = () => {
             width="196"
             height="124"
             alt="Logo stylisé de Ma Boucherie Française"
+            className="w-[230px] h-auto"
           />
         </motion.div>
       )}

@@ -171,7 +171,14 @@
 
         },
         "products": {
-            "title": "Nos Produits",
+            "title": "Nos Produits",            
+            "hero": [
+                {"src": "/images/content/categorie-agneau.webp", "width": 2813, "height": 1584, "name": "L'Agneau", "underName": "Bleu du maine", "sentence": "découvrez mes différentes découpes"},
+                {"src": "/images/content/categorie-boeuf.webp", "width": 4134, "height": 2327, "name": "Le Boeuf", "underName": "Fermier du maine", "sentence": "découvrez mes différentes découpes"},
+                {"src": "/images/content/categorie-porc.webp", "width": 2813, "height": 1584, "name": "Le Porc", "underName": "Sud Ouest", "sentence": "découvrez mes différentes découpes"},
+                {"src": "/images/content/categorie-veau.webp", "width": 2813, "height": 1584, "name": "Le Veau", "underName": "Fermier du Limousin", "sentence": "découvrez mes différentes découpes"},
+                {"src": "/images/content/categorie-volailles.webp", "width": 2813, "height": 1584, "name": "La Volaille", "underName": "Sud Ouest-Landes", "sentence": "découvrez mes différentes découpes"}
+            ],
             "products": {
                 "Volailles": {
                     "Dinde": [

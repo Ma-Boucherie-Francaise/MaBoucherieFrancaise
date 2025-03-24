@@ -126,7 +126,7 @@ const ProductSection = () => {
   const productsToDisplay = productsArray.slice(startIndex, endIndex);
 
   return (
-    <section className="max-w-[1440px] mx-auto py-[90px] md:py-28 px-5">
+    <section className="max-w-[1440px] mx-auto py-[90px] md:pb-28 px-5">
       <h1 className="text-6xl sm:text-8xl leading-16 sm:leading-24 mb-5">
         {content.pages.products.title}
       </h1>
