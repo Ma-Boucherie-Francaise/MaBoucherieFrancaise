@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://maboucheriefrancaise.com/sitemap.xml
