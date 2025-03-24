@@ -30,7 +30,9 @@ const Header = () => {
           />
         </Link>
         <button
-          className="flex flex-col cursor-pointer z-30"
+          className={`flex flex-col cursor-pointer z-30 ${
+            isActive && "fixed right-5"
+          }`}
           onClick={() => setIsActive(!isActive)}
         >
           <span
@@ -105,6 +107,44 @@ const Header = () => {
                   <Link href="/foire-aux-questions">FAQ</Link>
                 </li>
               </ul>
+              <div className="flex flex-col items-center">
+                <Link
+                  target="_blank"
+                  href={content.header.account.href}
+                  className="py-5 px-10"
+                  onClick={() => setIsActive(!isActive)}
+                >
+                  <Image
+                    src={
+                      pathname === "/notre-histoire"
+                        ? "/images/icons/account-icon-red.svg"
+                        : "/images/icons/account-icon-white.svg"
+                    }
+                    width={24}
+                    height={24}
+                    className="cursor-pointer"
+                    alt="Account Icon"
+                  />
+                </Link>
+                <Link
+                  target="_blank"
+                  href={content.header.cart.href}
+                  className="py-5 px-10"
+                  onClick={() => setIsActive(!isActive)}
+                >
+                  <Image
+                    src={
+                      pathname === "/notre-histoire"
+                        ? "/images/icons/cart-icon-red.svg"
+                        : "/images/icons/cart-icon-white.svg"
+                    }
+                    width={24}
+                    height={24}
+                    className="cursor-pointer"
+                    alt="Cart Icon"
+                  />
+                </Link>
+              </div>
             </nav>
           </m.div>
         )}
@@ -182,7 +222,7 @@ const Header = () => {
         </Link>
 
         <div className="flex gap-6">
-          <Link href={content.header.account.href}>
+          <Link href={content.header.account.href} target="_blank">
             <Image
               src={
                 pathname === "/notre-histoire"
@@ -195,7 +235,7 @@ const Header = () => {
               alt="Account Icon"
             />
           </Link>
-          <Link href={content.header.cart.href}>
+          <Link href={content.header.cart.href} target="_blank">
             <Image
               src={
                 pathname === "/notre-histoire"
