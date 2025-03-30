@@ -52,7 +52,7 @@ const Loader = () => {
             src="/images/ascent/pattern-white-3.png"
             width="153"
             height="31"
-            className="absolute bottom-10 right-10 z-[60] w-[125px]"
+            className="absolute bottom-10 right-10 z-[60] w-[85px]"
             alt="Pattern Ma Boucherie Française"
           />
           <Image
@@ -60,7 +60,7 @@ const Loader = () => {
             width="196"
             height="124"
             alt="Logo stylisé de Ma Boucherie Française"
-            className="w-[230px] h-auto"
+            className="w-[165px] lg:w-[200px] h-auto"
           />
         </motion.div>
       )}
