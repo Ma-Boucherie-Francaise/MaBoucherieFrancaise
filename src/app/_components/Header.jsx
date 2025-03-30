@@ -244,7 +244,7 @@ const Header = () => {
               }
               width={24}
               height={24}
-              className="cursor-pointer"
+              className="cursor-pointer w-[26px] h-[26px]"
               alt="Cart Icon"
             />
           </Link>
