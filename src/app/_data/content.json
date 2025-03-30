@@ -666,7 +666,7 @@
                     {
                         "name": "Travers de Porc",
                         "startingPrice": 10.99,
-                        "image": {"href": "/images/content/cutting/porc/Porc_Traversdfeporcs.jpg", "width": 1772, "height": 1772},
+                        "image": {"href": "/images/content/cutting/porc/Porc_Traversdeporcs.jpg", "width": 1772, "height": 1772},
                         "cutting": "Travers",
                         "href": "/"
                     }    

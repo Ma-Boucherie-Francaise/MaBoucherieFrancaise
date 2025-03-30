@@ -9,6 +9,7 @@ import { useSearchParams } from "next/navigation";
 const ProductSection = () => {
   const searchParams = useSearchParams();
   const categoryFromUrl = searchParams.get("category") || "";
+  let productsArray = [];
 
   const productShownPerPage = 9;
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -22,6 +23,15 @@ const ProductSection = () => {
   useEffect(() => {
     setSelected((prev) => ({ ...prev, category: categoryFromUrl }));
   }, [categoryFromUrl]);
+
+  useEffect(() => {
+    setCurrentIndex(1);
+    productsArray = getProductsArray(
+      selected.category,
+      selected.collection,
+      selected.cutting
+    );
+  }, [selected]);
 
   const [filterOpened, setFilterOpened] = useState({
     isOpen: false,
@@ -72,6 +82,7 @@ const ProductSection = () => {
   const resetFilters = () => {
     setFilterOpened({ isOpen: false, openedType: "" });
     setSelected({ category: "", collection: "", cutting: "" });
+    setCurrentIndex(1);
   };
 
   const getProductsArray = (
@@ -80,34 +91,37 @@ const ProductSection = () => {
     selectedCutting
   ) => {
     let products = [];
-    const productsObj = content.pages.products.products;
 
-    Object.entries(productsObj).forEach(([cat, categoryContent]) => {
-      if (selectedCategory && cat !== selectedCategory) return;
+    Object.entries(content.pages.products.products).forEach(
+      ([category, categoryData]) => {
+        if (selectedCategory && category !== selectedCategory) return;
 
-      if (Array.isArray(categoryContent)) {
-        categoryContent.forEach((product) => {
-          if (selectedCutting && product.cutting !== selectedCutting) return;
-          products.push({ ...product, category: cat, collection: "" });
-        });
-      } else if (typeof categoryContent === "object") {
-        Object.entries(categoryContent).forEach(([collection, productList]) => {
-          if (selectedCollection && collection !== selectedCollection) return;
-          if (Array.isArray(productList)) {
-            productList.forEach((product) => {
-              if (selectedCutting && product.cutting !== selectedCutting)
+        if (Array.isArray(categoryData)) {
+          categoryData.forEach((product) => {
+            if (selectedCutting && product.cutting !== selectedCutting) return;
+            if (selectedCollection) return;
+            products.push(product);
+          });
+        } else if (typeof categoryData === "object") {
+          Object.entries(categoryData).forEach(
+            ([collection, productsArray]) => {
+              if (selectedCollection && collection !== selectedCollection)
                 return;
-              products.push({ ...product, category: cat, collection });
-            });
-          }
-        });
+              productsArray.forEach((product) => {
+                if (selectedCutting && product.cutting !== selectedCutting)
+                  return;
+                products.push(product);
+              });
+            }
+          );
+        }
       }
-    });
+    );
 
     return products;
   };
 
-  const productsArray = getProductsArray(
+  productsArray = getProductsArray(
     selected.category,
     selected.collection,
     selected.cutting
