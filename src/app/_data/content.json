@@ -127,28 +127,30 @@
         },
         "history": {
             "title": "Notre Histoire",
-            "intro" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "intro" : "Amoureuse des traditions et du savoir-faire français, la maison décide de vouloir rendre dynamique l'héritage artisanal légué en apprentissage. S’engageant a partagé les valeurs au cœur de la tradition bouchère française tout en permettant son accessibilité en garantissant la qualité de ses produits.",
             "history":{
                 "image": {"href": "/images/content/boutique-histoire.webp", "width": 648,  "height": 528},
                 "text": [
                     {
-                        "title" : "Title",
-                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                        "title" : "Une passion avant tout",
+                        "text": "Artisan boucher passionné, Ma Boucherie Française vous propose des viandes de qualité, sélectionnées avec soin et découpées selon vos envies. Nous nous engageons à apporter tout le soin et la diligence nécessaire pour vous satisfaire."
                     },
                     {
-                        "title" : "Title",
-                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                        "title" : "Notre spécialité",
+                        "text": "un service de découpe personnalisé, que ce soit en livraison ou en click & collect l’amour de la tradition, à portée de clic. Pour vous, nous mettons la tradition bouchère à votre service. Choisissez la personnalisation adaptée à vos besoins. Découvrez les personnalisation disponible désossage, retrait de la peau ou du gras, découpé en cube, mises sous vide."
                     },
                     {
-                        "title" : "Title",
-                        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an "
+                        "title" : "Livraison & Click and collect",
+                        "text": "Commandez en ligne votre découpe personnalisée et récupérez-la en boutique grâce au click and collect, ou optez pour la livraison à domicile. Pour chaque produit nous proposons des options de découpe, de conditionnement et de grammage tout en garantissant une qualité de service conforme aux normes alimentaires."
                     }
                 ]
             },
             "promesses" : {
                 "title": "La Promesse de l'Excellence",
-                "first_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
-                "second_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an",
+                "first_text" : "Nous garantissons la provenance de nos viandes uniquement française et nous fournissons la traçabilité de tous nos produits.",
+                "second_text": "La mise en place d’information de traçabilité et information nutritionnelle claire, lisible et facile à comprendre pour tous. (Élevage à taille humaine, Alimentation saine)",
+                "third_text": "Fort de plusieurs années d’expérience, notre équipe est composée de passionnés maîtrisant le savoir-faire artisanal. Chaque pièce est travaillée avec soin, dans la pure tradition bouchère, pour garantir à nos clients une qualité irréprochable et un goût authentique",
+                "fourth_text": "La maison s’inscrit dans une démarche d'optimisation de l'impact écologique de ses emballages. De nombreux projets sont en cours afin d'améliorer la recyclabilité de nos emballages et permettre la livraison éco responsable",
                 "quality": [
                     {
                         "image": {"href": "/images/content/eleveurs-partenaires_histoire.webp", "width": 72, "height": 71},
@@ -183,181 +185,691 @@
                 "Volailles": {
                     "Dinde": [
                         {
-                            "name": "Dinde en cube",
+                            "name": "Aiguillettes de Dinde",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Aiguillette.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Aiguilletes",
                             "href": "/"
-                        },
+                        },                      
                         {
-                            "name": "Dinde en cube",
+                            "name": "Dinde en Cube",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Cube.jpg", "width": 1772, "height": 1772},
                             "cutting": "Cube",
                             "href": "/"
-                        },
+                        },                      
                         {
-                            "name": "Dinde en cube",
+                            "name": "Filet de Dinde",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Filet.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Filet",
                             "href": "/"
-                        },
+                        },                      
                         {
-                            "name": "Dinde en cube",
+                            "name": "Dinde Hachée",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Hachée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Haché",
                             "href": "/"
-                        },
+                        },                      
                         {
-                            "name": "Dinde en cube",
+                            "name": "Dinde Panée",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Panée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Pané",
                             "href": "/"
-                        },
+                        },                      
                         {
-                            "name": "Dinde en cube",
+                            "name": "Dinde Tranches Épaisses",
                             "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Tranchesépaisse.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Tranches Épaisses",
                             "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        },
-                        {
-                            "name": "Dinde en cube",
-                            "startingPrice": 10.99,
-                            "image": {"href": "/images/content/dinde_cube.webp", "width": 1772, "height": 1772},
-                            "cutting": "Cube",
-                            "href": "/"
-                        }
+                        }                 
                     ],
                     "Canard": [
+                        {
+                            "name": "Aiguillettes de Canard",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Canard_Aiguillettes.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Aiguilletes",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Canard Dégraissé",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Canard_Dégraissée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Dégraissé",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Canard Farci",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Canard_farci.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Farci",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Filet de Canard",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Canard_Filet.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Filet",
+                            "href": "/"
+                        },
+                        {
+                            "name": "Canard Quadrillé",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Canard_Quadrillé.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Quadrillé",
+                            "href": "/"
+                        }
                         
                     ],
                     "Poulet": [
-                        
-                    ],
-                    "Pintade": [
-                        
+                        {
+                            "name": "Aiguillettes de Poulet",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Aiguillette.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Pané",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet en 4",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Coupéeen4_6.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Coupé en 4",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Crapaudine",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Crapaudine.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Crapaudine",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet en Cube",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Cube.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cube",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Cuisse en 2",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Cuissecoupéeen2_4.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cuisse en 2",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Cuisse désossée",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Cuissedésossée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Cuisse désossée",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Entier",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Entier.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Entier",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Farci",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Farci.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Farci",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Filet de Poulet",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Filet.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Filet",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Haché",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Hachée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Haché",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Haut de cuisse de Poulet",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Hautdecuisse.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Haut de cuisse",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Pané",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Panée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Pané",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Pilon de Poulet",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Pilon.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Pilon",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Pilon sans peau de Poulet",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Pilonsanspeau.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Pilon sans peau",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Rôti",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Rôti.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Rôti",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Tranches Fines",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_TranchesFine_Epaisse.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Tranches Fines",
+                            "href": "/"
+                        },   
+                        {
+                            "name": "Poulet Vidé",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Poulet_Vidée.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Vidé",
+                            "href": "/"
+                        }                        
                     ]
                 },
                 "Boeuf": [
-                        
+                    {
+                        "name": "Aiguillettes de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Aiguillettes.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Aiguilletes",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Brochette de Boeuf marinée",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Brochette_Mariné.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Brochette de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Brochette.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Cote de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Côtedeboeuf.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Boeuf en Cube",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Cubes.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cube",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Entrecote de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Entrecôte.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Entrecôte",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Filet Bardé de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Filet_Bardé.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Filet",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Filet de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Filet.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Filet",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Jarret Ossobucco de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Jarret_OssoBucco.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Jarret",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Macreuse de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Macreuse.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Macreuse",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Osamoelle de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Osamoelle.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Osamoelle",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Plat de cote de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Platdecôte.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Plat de cote",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Queue de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Qoeuedeboeuf.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Plat de cote",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Rossini de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Rossini.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rossini",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Rossini Tournedos de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_RossiniTournedos.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rossini",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Rumsteack Bardé de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Rumsteack_Bardé.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rumsteak",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Rumsteack de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Rumsteack.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rumsteak",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Steack de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Steack.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Steack",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Tendrons Ficelé de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Tendrons_Ficelé.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Ficelé",
+                        "href": "/"
+                    },  
+                    {
+                        "name": "Wellington de Boeuf",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/boeuf/Boeuf_Wellington.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Wellington",
+                        "href": "/"
+                    } 
                 ],
                 "Porc": [
-                        
+                    {
+                        "name": "Brochette de Porc marinée",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/brochette_de_porc_marinée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Carré de cote de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/carré_de_cote_de_porc.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Carré de cote",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Aiguillettes de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Aiguillette2.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Aiguilletes",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Bacon de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Bacon.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Bacon",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Brochette de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Brochette.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Cote Manchonnée de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Cotemanchonnée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Porc en Cube",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Cube.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cube",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Porc désossé",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_désossée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Désossé",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Echine de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Echinedeporc.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Echine",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Echine de Porc désossée",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_echinedésossée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Echine",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Épaule de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Epaule.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Épaule",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Épaule de Porc désossée",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Epauledésossée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Épaule",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Escalope de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Escalope.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Escalope",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Filet Mignon de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_FiletMignon.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Filet Mignon",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Filet Mignon de Porc dégraissé",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_FiletMignon_dégraissée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Filet Mignon",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Jambon rôti",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Jambon_rotideporc.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rôti",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Jambon en tranches",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Jambontranches.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Tranches",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Jarret de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Jarret.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Jarret",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Rouelle de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Rouelledeporc.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rouelle",
+                        "href": "/"
+                    },    
+                    {
+                        "name": "Travers de Porc",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/porc/Porc_Traversdfeporcs.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Travers",
+                        "href": "/"
+                    }    
                 ],
                 "Agneau": [
-                        
+                    {
+                        "name": "Brochette d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Brochette.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Carré de cote manchonée d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Carréedecote_manchonée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Carré de cote",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Collier d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Collier.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Collier",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Cote Filet Double d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Cotefiletdouble.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Cote non manchonée d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Cotenonmanchonée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Première Cote d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Cotepremiere.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Seconde Cote d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Coteseconde.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Cote séparée d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Coteséparée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Agneau en Cube",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_cube.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cube",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Agneau en Couronne",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Encouronne.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Couronne",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Epigramme d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Epigramme.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Couronne",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Gigot d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Gigot.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Gigot",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Agneau Mariné",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Mariné.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Mariné",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Poitrine d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Poitrine.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Poitrine",
+                        "href": "/"
+                    },     
+                    {
+                        "name": "Scelle d'Agneau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/agneau/Agneau_Scelle.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Scelle",
+                        "href": "/"
+                    }     
                 ],
                 "Veau": [
-                        
+                    {
+                        "name": "Brochette de Veau marinée",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/brochette_de_veau_mariné.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Filet de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/filet_de_veau.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Filet",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Rumsteack de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/rumsteack_veau.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Rumsteak",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Aiguillettes de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Aiguillette.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Aiguilletes",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Brochette de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_brochette.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Brochette",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Collier de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_collier.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Collier",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Cote première de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Cotepremiere.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Cote seconde de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Coteseconde.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cote",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Veau en Cube",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Cube.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Cube",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Veau Haché",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_hachée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Haché",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Jarret Ossobucco fin de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Jarret_Ossobucco_fin.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Haché",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Veau Pané",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Panée.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Pané",
+                        "href": "/"
+                    }, 
+                    {
+                        "name": "Queue de Veau",
+                        "startingPrice": 10.99,
+                        "image": {"href": "/images/content/cutting/veau/Veau_Qeuedeveau.jpg", "width": 1772, "height": 1772},
+                        "cutting": "Queue",
+                        "href": "/"
+                    }
                 ]
             }
         },
@@ -431,8 +943,8 @@
     "footer": {
         "daysOpen": "Lundi - Vendredi",
         "hoursOpen": "08:00 - 18:00",
-        "secondDaysOpen": false,
-        "secondHoursOpen": false,
+        "secondDaysOpen": "Samedi - Dimanche",
+        "secondHoursOpen": "08:00 - 15:00",
         "title": "Rejoignez Nous",
         "subtitle": "Inscrivez-vous pour recevoir des actualités, recettes et cadeaux exclusifs"
     }

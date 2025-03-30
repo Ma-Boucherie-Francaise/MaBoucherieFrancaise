@@ -8,24 +8,24 @@ import { useSearchParams } from "next/navigation";
 
 const ProductSection = () => {
   const searchParams = useSearchParams();
-  const category = searchParams.get("category");
+  const categoryFromUrl = searchParams.get("category") || "";
 
   const productShownPerPage = 9;
   const [currentIndex, setCurrentIndex] = useState(1);
 
+  const [selected, setSelected] = useState({
+    category: "",
+    collection: "",
+    cutting: "",
+  });
+
   useEffect(() => {
-    setSelected({ ...selected, category });
-  }, [category]);
+    setSelected((prev) => ({ ...prev, category: categoryFromUrl }));
+  }, [categoryFromUrl]);
 
   const [filterOpened, setFilterOpened] = useState({
     isOpen: false,
     openedType: "",
-  });
-
-  const [selected, setSelected] = useState({
-    category: false,
-    collection: false,
-    cutting: false,
   });
 
   const categories = Object.keys(content.pages.products.products);
@@ -35,23 +35,19 @@ const ProductSection = () => {
     let cuttings = new Set();
 
     Object.entries(content.pages.products.products).forEach(
-      ([category, categoryContent]) => {
-        if (selectedCategory && category !== selectedCategory) return;
+      ([cat, categoryContent]) => {
+        if (selectedCategory && cat !== selectedCategory) return;
 
         if (Array.isArray(categoryContent)) {
           categoryContent.forEach((product) => {
-            if (product.cutting) {
-              cuttings.add(product.cutting);
-            }
+            if (product.cutting) cuttings.add(product.cutting);
           });
         } else if (typeof categoryContent === "object") {
           Object.entries(categoryContent).forEach(([collection, products]) => {
             collections.push(collection);
             if (Array.isArray(products)) {
               products.forEach((product) => {
-                if (product.cutting) {
-                  cuttings.add(product.cutting);
-                }
+                if (product.cutting) cuttings.add(product.cutting);
               });
             }
           });
@@ -75,7 +71,7 @@ const ProductSection = () => {
 
   const resetFilters = () => {
     setFilterOpened({ isOpen: false, openedType: "" });
-    setSelected({ category: false, cutting: false, collection: false });
+    setSelected({ category: "", collection: "", cutting: "" });
   };
 
   const getProductsArray = (
@@ -86,25 +82,22 @@ const ProductSection = () => {
     let products = [];
     const productsObj = content.pages.products.products;
 
-    Object.entries(productsObj).forEach(([category, categoryContent]) => {
-      // Si une catégorie est sélectionnée et qu'elle ne correspond pas, on passe au suivant
-      if (selectedCategory && category !== selectedCategory) return;
+    Object.entries(productsObj).forEach(([cat, categoryContent]) => {
+      if (selectedCategory && cat !== selectedCategory) return;
 
       if (Array.isArray(categoryContent)) {
-        // Catégories sans collections
         categoryContent.forEach((product) => {
           if (selectedCutting && product.cutting !== selectedCutting) return;
-          products.push({ ...product, category, collection: "" });
+          products.push({ ...product, category: cat, collection: "" });
         });
       } else if (typeof categoryContent === "object") {
-        // Catégories avec collections
         Object.entries(categoryContent).forEach(([collection, productList]) => {
           if (selectedCollection && collection !== selectedCollection) return;
           if (Array.isArray(productList)) {
             productList.forEach((product) => {
               if (selectedCutting && product.cutting !== selectedCutting)
                 return;
-              products.push({ ...product, category, collection });
+              products.push({ ...product, category: cat, collection });
             });
           }
         });
@@ -131,6 +124,7 @@ const ProductSection = () => {
         {content.pages.products.title}
       </h1>
       <div className="flex flex-col lg:flex-row gap-3 mt-10 pb-5">
+        {/* Filtre Catégorie */}
         <div className="relative">
           <AnimatePresence>
             <div
@@ -145,7 +139,6 @@ const ProductSection = () => {
                 alt=""
               />
             </div>
-
             {filterOpened.isOpen && filterOpened.openedType === "category" && (
               <ul
                 className="border min-w-[280px] w-full lg:w-fit rounded-2xl max-h-[200px] overflow-hidden absolute top-16 bg-white z-10"
@@ -157,10 +150,11 @@ const ProductSection = () => {
                       className="w-full py-4 px-4 cursor-pointer"
                       key={i}
                       onClick={() => {
+                        // Remise à zéro des autres filtres lors de la sélection d'une nouvelle catégorie
                         setSelected({
                           category: cat,
-                          collection: false,
-                          cutting: false,
+                          collection: "",
+                          cutting: "",
                         });
                         toggleFilter("category");
                       }}
@@ -174,6 +168,7 @@ const ProductSection = () => {
           </AnimatePresence>
         </div>
 
+        {/* Filtre Collections */}
         {collections.length > 0 && (
           <div className="relative">
             <AnimatePresence>
@@ -189,7 +184,6 @@ const ProductSection = () => {
                   alt=""
                 />
               </div>
-
               {filterOpened.isOpen &&
                 filterOpened.openedType === "collection" && (
                   <ul
@@ -202,7 +196,10 @@ const ProductSection = () => {
                           className="w-full py-4 px-4 cursor-pointer"
                           key={i}
                           onClick={() => {
-                            setSelected({ ...selected, collection: col });
+                            setSelected((prev) => ({
+                              ...prev,
+                              collection: col,
+                            }));
                             toggleFilter("collection");
                           }}
                         >
@@ -216,6 +213,7 @@ const ProductSection = () => {
           </div>
         )}
 
+        {/* Filtre Découpes */}
         {cuttings.length > 0 && (
           <div className="relative">
             <AnimatePresence>
@@ -231,7 +229,6 @@ const ProductSection = () => {
                   alt=""
                 />
               </div>
-
               {filterOpened.isOpen && filterOpened.openedType === "cutting" && (
                 <ul
                   className="border min-w-[280px] w-full lg:w-fit rounded-2xl max-h-[200px] overflow-hidden absolute top-16 bg-white z-10"
@@ -243,7 +240,7 @@ const ProductSection = () => {
                         className="w-full py-4 px-4 cursor-pointer"
                         key={i}
                         onClick={() => {
-                          setSelected({ ...selected, cutting: cut });
+                          setSelected((prev) => ({ ...prev, cutting: cut }));
                           toggleFilter("cutting");
                         }}
                       >
@@ -262,7 +259,7 @@ const ProductSection = () => {
         </button>
       </div>
 
-      {productsToDisplay.length > 1 ? (
+      {productsToDisplay.length > 0 ? (
         <>
           <div className="py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
             {productsToDisplay.map((product, i) => (
@@ -271,7 +268,7 @@ const ProductSection = () => {
           </div>
           {totalPages > 0 && (
             <div className="flex justify-center gap-4 mt-8">
-              {currentIndex > 0 && (
+              {currentIndex > 1 && (
                 <button
                   onClick={() => {
                     setCurrentIndex(currentIndex - 1);
@@ -317,7 +314,7 @@ const ProductSection = () => {
         </>
       ) : (
         <div className="grid place-content-center w-full py-10">
-          <p>Aucune Viande trouvée</p>
+          <p>Aucune viande trouvée</p>
         </div>
       )}
     </section>

@@ -15,7 +15,30 @@ const QuestionSection = () => {
   const categories = Object.keys(content.pages.faq.questions);
   const filteredQuestions = content.pages.faq.questions[selectedCategory];
 
-  console.log(categories);
+  const categorieVariants = {
+    hidden: { y: "100%", opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6,
+        ease: [0.65, 0, 0.35, 1],
+      },
+    },
+  };
+
+  const questionVariants = {
+    hidden: { y: "100%", opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6,
+        delay: 0.25,
+        ease: [0.65, 0, 0.35, 1],
+      },
+    },
+  };
 
   return (
     <section className="max-w-[1440px] mx-auto pt-[40px] pb-[90px] md:py-28 px-5">
@@ -76,7 +99,12 @@ const QuestionSection = () => {
           </AnimatePresence>
         </div>
 
-        <ul className="border-l-2 pl-5 py-2 flex-col gap-2 h-fit hidden lg:flex">
+        <m.ul
+          className="border-l-2 pl-5 py-2 flex-col gap-2 h-fit hidden lg:flex"
+          variants={categorieVariants}
+          initial="hidden"
+          whileInView="visible"
+        >
           {categories.map((category, i) => (
             <li
               key={i}
@@ -95,8 +123,13 @@ const QuestionSection = () => {
               {category}
             </li>
           ))}
-        </ul>
-        <div className="lg:col-span-2">
+        </m.ul>
+        <m.div
+          className="lg:col-span-2"
+          variants={questionVariants}
+          initial="hidden"
+          whileInView="visible"
+        >
           <h2 className="text-2xl md:text-4xl mb-2 lg:mb-6">
             {selectedCategory}
           </h2>
@@ -112,7 +145,7 @@ const QuestionSection = () => {
               />
             ))}
           </div>
-        </div>
+        </m.div>
       </div>
     </section>
   );

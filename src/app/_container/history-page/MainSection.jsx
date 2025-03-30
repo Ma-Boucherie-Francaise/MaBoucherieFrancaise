@@ -1,8 +1,22 @@
+"use client";
 import React from "react";
 import content from "@/app/_data/content.json";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const MainSection = () => {
+  const promessesVariants = {
+    hidden: { y: "100%", opacity: 0 },
+    visible: (i) => ({
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.3,
+        delay: i * 0.08,
+        ease: [0.65, 0, 0.35, 1],
+      },
+    }),
+  };
   return (
     <main className="bg-[var(--color-secondary)] text-white px-5 py-[90px] md:py-28">
       <div className="max-w-[1440px] mx-auto">
@@ -23,7 +37,7 @@ const MainSection = () => {
           />
         </div>
         {/* L'histoire */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-11">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-11">
           <Image
             src={content.pages.history.history.image.href}
             width={content.pages.history.history.image.width}
@@ -43,32 +57,45 @@ const MainSection = () => {
         {/* Promesses */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-11 py-[90px] md:py-28">
           <div>
-            <h2 className="text-4xl mb-2 md:mb-4 md:text-6xl md:w-3/4 md:leading-18">
+            <h2 className="text-4xl mb-2 md:mb-4 md:text-6xl   md:leading-18">
               {content.pages.history.promesses.title}
             </h2>
-            <div className="mt-8 w-5/6">
-              <p className="text-sm font-medium md:text-lg mb-3">
+            <div className="mt-8 w-5/6 flex flex-col gap-4">
+              <p className="text-sm font-medium md:text-lg">
                 {content.pages.history.promesses.first_text}
               </p>
               <p className="text-sm font-medium md:text-lg">
                 {content.pages.history.promesses.second_text}
               </p>
+              <p className="text-sm font-medium md:text-lg">
+                {content.pages.history.promesses.third_text}
+              </p>
+              <p className="text-sm font-medium md:text-lg">
+                {content.pages.history.promesses.fourth_text}
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {content.pages.history.promesses.quality.map((quality, i) => (
-              <div className="flex gap-10 items-center" key={i}>
+              <motion.div
+                className="flex gap-5 items-center"
+                key={i}
+                custom={i}
+                variants={promessesVariants}
+                initial="hidden"
+                whileInView="visible"
+              >
                 <Image
                   src={quality.image.href}
                   width={quality.image.width}
                   height={quality.image.height}
-                  className="w-[100px] h-[100px]"
+                  className="w-[100px] lg:w-[150px] h-[100px] lg:h-[150px]"
                   alt={quality.title}
                 />
                 <p className="text-xl font-semibold mb-2 w-2/5">
                   {quality.title}
                 </p>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

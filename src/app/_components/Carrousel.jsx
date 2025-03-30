@@ -112,8 +112,12 @@ const Carrousel = () => {
                   }}
                   key={i}
                 >
-                  <article className="shrink-0 h-fit w-full">
-                    <div className="w-[290px] h-[290px] md:w-[400px] md:h-[400px] rounded-2xl shadow-card hover:-translate-y-2.5">
+                  <m.article
+                    className="shrink-0 h-fit w-full"
+                    initial={{ y: 0 }}
+                    whileHover={{ y: "-10px" }}
+                  >
+                    <div className="w-[290px] h-[290px] md:w-[400px] md:h-[400px] rounded-2xl shadow-card">
                       <Image
                         src={image.href}
                         width={image.width}
@@ -134,7 +138,7 @@ const Carrousel = () => {
                       </h3>
                       <p>Dès {startingPrice}€</p>
                     </div>
-                  </article>
+                  </m.article>
                 </Link>
               );
             }

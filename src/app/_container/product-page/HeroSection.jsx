@@ -17,18 +17,20 @@ const HeroSection = () => {
 
   const animeText = {
     hide: {
-      y: "102%",
+      y: "100%",
+      opacity: 0,
       transition: { duration: 0.5, ease: [0.65, 0, 0.35, 1] },
     },
     show: {
       y: 0,
+      opacity: 1.0,
       transition: { duration: 0.5, ease: [0.65, 0, 0.35, 1] },
     },
   };
 
   return (
     <>
-      <div className="flex flex-wrap justify-around items-center max-w-[1440px] mx-auto px-5">
+      <div className="relative hidden flex-wrap justify-around items-center max-w-[1440px] mx-auto px-5 lg:flex">
         {content.pages.products.hero.map(({ src, width, height, name }, i) => {
           return (
             <div
@@ -48,28 +50,30 @@ const HeroSection = () => {
             </div>
           );
         })}
-      </div>
-      <div className="">
-        {content.pages.products.hero.map(({ name, underName, sentence }, i) => {
-          return (
-            <m.div
-              initial="hide"
-              animate={projectHovered === i ? "show" : "hide"}
-              key={i}
-              className="text"
-            >
-              <div className="hidden">
-                <m.h1 variants={animeText}>{name}</m.h1>
-              </div>
-              <div className="hidden">
-                <m.p variants={animeText}>{underName}</m.p>
-              </div>
-              <div className="hidden">
-                <m.span variants={animeText}>{sentence}</m.span>
-              </div>
-            </m.div>
-          );
-        })}
+        <div className="lg:block hidden absolute w-full inset-0 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] pointer-events-none">
+          {content.pages.products.hero.map(
+            ({ name, underName, sentence }, i) => {
+              return (
+                <m.div
+                  initial="hide"
+                  animate={projectHovered === i ? "show" : "hide"}
+                  key={i}
+                  className="absolute w-full text-center"
+                >
+                  <div className="">
+                    <m.h1 variants={animeText}>{name}</m.h1>
+                  </div>
+                  <div className="">
+                    <m.p variants={animeText}>{underName}</m.p>
+                  </div>
+                  <div className="">
+                    <m.span variants={animeText}>{sentence}</m.span>
+                  </div>
+                </m.div>
+              );
+            }
+          )}
+        </div>
       </div>
     </>
   );

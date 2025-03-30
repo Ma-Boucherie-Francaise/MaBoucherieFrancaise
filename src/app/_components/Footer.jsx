@@ -33,7 +33,7 @@ const Footer = () => {
                 className="w-full py-4 px-5 rounded-2xl border-2 border-white text-white outline-none"
               />
             </div>
-            <button className="w-full min-w-[268px] md:w-fit md:h-fit py-4 px-5 rounded-2xl bg-white text-[var(--color-primary)] cursor-pointer md:text-lg">
+            <button className="w-full min-w-[268px] md:w-fit md:h-fit py-4 px-5 rounded-2xl bg-white text-[var(--color-primary)] cursor-pointer md:text-lg transition-opacity hover:opacity-80">
               <p>S'inscrire</p>
             </button>
           </div>
