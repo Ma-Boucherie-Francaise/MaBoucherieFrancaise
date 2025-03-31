@@ -13,6 +13,7 @@
 body {
   color: #b10000;
   font-family: var(--font-golos-text), Arial, Helvetica, sans-serif;
+  cursor: none;
 }
 
 h1,

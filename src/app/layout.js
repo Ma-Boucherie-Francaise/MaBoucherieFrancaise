@@ -5,6 +5,7 @@ import TopBar from "./_components/TopBar";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Loader from "./_components/Loader";
+import CustomCursor from "./_components/CustomCursor";
 
 const awesomeSerif = localFont({
   src: "./fonts/AwesomeSerif-BoldExtraTall.otf",
@@ -22,8 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr" className="scroll-smooth">
       <body
-        className={`${awesomeSerif.variable} ${golosText.variable} antialiased`}
+        className={`${awesomeSerif.variable} ${golosText.variable} antialiased `}
       >
+        <CustomCursor />
         <Loader />
         <TopBar text={"-10 % de réduction sur votre première commande"} />
         <Header />
