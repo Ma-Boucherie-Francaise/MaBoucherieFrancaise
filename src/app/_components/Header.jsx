@@ -221,20 +221,7 @@ const Header = () => {
           />
         </Link>
 
-        <div className="flex gap-6">
-          <Link href={content.header.account.href} target="_blank">
-            <Image
-              src={
-                pathname === "/notre-histoire"
-                  ? "/images/icons/account-icon-white.svg"
-                  : "/images/icons/account-icon-red.svg"
-              }
-              width={24}
-              height={24}
-              className="cursor-pointer"
-              alt="Account Icon"
-            />
-          </Link>
+        <div className="flex gap-6 lg:gap-4">
           <Link href={content.header.cart.href} target="_blank">
             <Image
               src={
@@ -246,6 +233,19 @@ const Header = () => {
               height={24}
               className="cursor-pointer w-[26px] h-[26px]"
               alt="Cart Icon"
+            />
+          </Link>
+          <Link href={content.header.account.href} target="_blank">
+            <Image
+              src={
+                pathname === "/notre-histoire"
+                  ? "/images/icons/account-icon-white.svg"
+                  : "/images/icons/account-icon-red.svg"
+              }
+              width={24}
+              height={24}
+              className="cursor-pointer"
+              alt="Account Icon"
             />
           </Link>
         </div>
