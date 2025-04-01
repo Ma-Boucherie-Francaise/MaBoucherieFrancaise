@@ -29,6 +29,7 @@ const CustomCursor = () => {
         transform: "translate(-50%, -50%)",
         zIndex: 9999,
       }}
+      className="hidden md:block"
     />
   );
 };

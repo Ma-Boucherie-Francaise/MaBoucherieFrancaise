@@ -3,15 +3,19 @@ import { useState } from "react";
 import content from "@/app/_data/content.json";
 import Image from "next/image";
 import { motion as m } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const HeroSection = () => {
+  const router = useRouter();
   const [projectHovered, setProjectHovered] = useState(false);
 
   const MouseEnter = (e) => {
+    console.log("ENTERING", e.target.dataset.id);
     setProjectHovered(e.target.dataset.id);
   };
 
   const MouseLeave = () => {
+    console.log("LEAVING");
     setProjectHovered();
   };
 
@@ -36,11 +40,11 @@ const HeroSection = () => {
             <div
               className="w-[250px] h-[250px] grid place-content-center"
               key={i}
-              data-id={i}
-              onMouseEnter={(e) => MouseEnter(e)}
-              onMouseLeave={() => MouseLeave()}
             >
               <Image
+                data-id={i}
+                onMouseEnter={(e) => MouseEnter(e)}
+                onMouseLeave={() => MouseLeave()}
                 src={src}
                 width={width}
                 height={height}
@@ -50,29 +54,28 @@ const HeroSection = () => {
             </div>
           );
         })}
-        <div className="lg:block hidden absolute w-full inset-0 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] pointer-events-none">
-          {content.pages.products.hero.map(
-            ({ name, underName, sentence }, i) => {
-              return (
-                <m.div
-                  initial="hide"
-                  animate={projectHovered === i ? "show" : "hide"}
-                  key={i}
-                  className="absolute w-full text-center"
-                >
-                  <div className="">
-                    <m.h1 variants={animeText}>{name}</m.h1>
-                  </div>
-                  <div className="">
-                    <m.p variants={animeText}>{underName}</m.p>
-                  </div>
-                  <div className="">
-                    <m.span variants={animeText}>{sentence}</m.span>
-                  </div>
-                </m.div>
-              );
-            }
-          )}
+        <div className="lg:block hidden absolute w-full inset-0 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] pointer-events-none z-30">
+          {content.pages.products.hero.map(({ name, underName }, i) => {
+            return (
+              <m.div
+                initial="hide"
+                animate={projectHovered == i ? "show" : "hide"}
+                key={i}
+                className="absolute w-full text-center "
+              >
+                <div className="overflow-hidden">
+                  <m.h1 variants={animeText} className="text-6xl">
+                    {name}
+                  </m.h1>
+                </div>
+                <div className="overflow-hidden">
+                  <m.p variants={animeText} className="text-2xl">
+                    {underName}
+                  </m.p>
+                </div>
+              </m.div>
+            );
+          })}
         </div>
       </div>
     </>
