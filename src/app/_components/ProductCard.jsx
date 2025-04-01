@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { motion as m } from "motion/react";
 
 const ProductCard = ({ product }) => {
   return (
     <Link href={product.href}>
-      <article className="">
+      <m.article className="" initial={{ y: 0 }} whileHover={{ y: "-10px" }}>
         <div className="w-full shadow-card rounded-2xl">
           <Image
             src={product.image.href}
@@ -19,7 +20,7 @@ const ProductCard = ({ product }) => {
           <h3 className="text-lg md:text-2xl">{product.name}</h3>
           <p>Dès {product.startingPrice}€</p>
         </div>
-      </article>
+      </m.article>
     </Link>
   );
 };

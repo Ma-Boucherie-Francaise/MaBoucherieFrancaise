@@ -1,10 +1,9 @@
 "use client";
 import { useState } from "react";
-import { AnimatePresence, motion as m } from "motion/react";
+import { motion as m } from "motion/react";
 import content from "@/app/_data/content.json";
 import Image from "next/image";
 import Link from "next/link";
-import ProductCard from "./ProductCard";
 import PrimaryButton from "./PrimaryButton";
 
 const Carrousel = () => {

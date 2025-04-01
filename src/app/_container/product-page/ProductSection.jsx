@@ -288,7 +288,7 @@ const ProductSection = () => {
                     setCurrentIndex(currentIndex - 1);
                     window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
-                  className="px-3 py-1 border rounded-lg cursor-pointer"
+                  className="px-3 py-1 border rounded-lg cursor-pointer hover:bg-[var(--color-primary)] hover:text-white"
                 >
                   Précédent
                 </button>
@@ -303,7 +303,7 @@ const ProductSection = () => {
                     setCurrentIndex(i + 1);
                     window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
-                  className={`hidden md:block px-3 py-1 border rounded-lg cursor-pointer ${
+                  className={`hidden md:block px-3 py-1 border rounded-lg cursor-pointer hover:bg-[var(--color-primary)] hover:text-white ${
                     currentIndex === i + 1
                       ? "bg-[var(--color-primary)] text-white"
                       : ""
@@ -318,7 +318,7 @@ const ProductSection = () => {
                     setCurrentIndex(currentIndex + 1);
                     window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
-                  className="px-3 py-1 border rounded-lg cursor-pointer"
+                  className="px-3 py-1 border rounded-lg cursor-pointer hover:bg-[var(--color-primary)] hover:text-white"
                 >
                   Suivant
                 </button>
