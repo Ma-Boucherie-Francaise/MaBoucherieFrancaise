@@ -14,6 +14,7 @@ const LastCta = () => {
           width={5315}
           height={3543}
           className="w-full h-[600px] object-cover"
+          alt="Image de charcuterie"
         />
         <div className="absolute inset-0 bg-black opacity-20"></div>
       </div>

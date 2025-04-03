@@ -1,3 +1,4 @@
+"use client";
 import { Golos_Text } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -6,6 +7,10 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Loader from "./_components/Loader";
 import CustomCursor from "./_components/CustomCursor";
+import Popup from "./_components/Popup";
+import { createContext, useState } from "react";
+
+export const AppContext = createContext();
 
 const awesomeSerif = localFont({
   src: "./fonts/AwesomeSerif-BoldExtraTall.otf",
@@ -20,18 +25,22 @@ const golosText = Golos_Text({
 });
 
 export default function RootLayout({ children }) {
+  const [isLoading, setIsLoading] = useState(true);
   return (
-    <html lang="fr" className="scroll-smooth">
-      <body
-        className={`${awesomeSerif.variable} ${golosText.variable} antialiased `}
-      >
-        <CustomCursor />
-        <Loader />
-        <TopBar text={"-10 % de réduction sur votre première commande"} />
-        <Header />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <AppContext.Provider value={{ loading: isLoading }}>
+      <html lang="fr" className="scroll-smooth">
+        <body
+          className={`${awesomeSerif.variable} ${golosText.variable} antialiased `}
+        >
+          <CustomCursor />
+          <Loader isLoading={isLoading} setIsLoading={setIsLoading} />
+          <Popup />
+          <TopBar text={"-10 % de réduction sur votre première commande"} />
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </html>
+    </AppContext.Provider>
   );
 }

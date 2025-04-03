@@ -3,9 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Loader = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
+const Loader = ({ isLoading, setIsLoading }) => {
   const loaderVariants = {
     initial: { y: 0, opacity: 1 },
     animate: { y: 0, opacity: 1 },

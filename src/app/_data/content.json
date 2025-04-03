@@ -7,6 +7,10 @@
             "href":"/"
         }
     },
+    "popup":{
+        "title": "1 Cadeau offert*",
+        "subtitle": "*lors de votre prochain achat pour tout retour photo de votre commande"
+    },
     "pages": {
         "home": {
             "hero": {
