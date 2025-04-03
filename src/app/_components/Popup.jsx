@@ -5,12 +5,20 @@ import Image from "next/image";
 import content from "@/app/_data/content.json";
 
 const Popup = () => {
-  let hasAlreadyBeenClosed = sessionStorage.getItem("popup") || false;
+  const [hasAlreadyBeenClosed, setHasAlreadyBeenClosed] = useState(false);
   const { loading } = useContext(AppContext);
   const [canShowPopup, setCanShowPopup] = useState(false);
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setHasAlreadyBeenClosed(sessionStorage.getItem("popup") || false);
+    }
+  }, []);
+
   function closePopup() {
-    sessionStorage.setItem("popup", true);
+    if (typeof window !== "undefined") {
+      sessionStorage.setItem("popup", true);
+    }
     setCanShowPopup(false);
   }
 
