@@ -9,6 +9,7 @@ import Loader from "./_components/Loader";
 import CustomCursor from "./_components/CustomCursor";
 import Popup from "./_components/Popup";
 import { createContext, useState } from "react";
+import Timer from "./_components/Timer";
 
 export const AppContext = createContext();
 
@@ -26,19 +27,26 @@ const golosText = Golos_Text({
 
 export default function RootLayout({ children }) {
   const [isLoading, setIsLoading] = useState(true);
+  const [isTimerDown, setIsTimerDown] = useState(false);
   return (
     <AppContext.Provider value={{ loading: isLoading }}>
       <html lang="fr" className="scroll-smooth">
         <body
           className={`${awesomeSerif.variable} ${golosText.variable} antialiased `}
         >
-          <CustomCursor />
-          <Loader isLoading={isLoading} setIsLoading={setIsLoading} />
-          <Popup />
-          <TopBar text={"-10 % de réduction sur votre première commande"} />
-          <Header />
-          {children}
-          <Footer />
+          {isTimerDown ? (
+            <>
+              <CustomCursor />
+              <Loader isLoading={isLoading} setIsLoading={setIsLoading} />
+              <Popup />
+              <TopBar text={"-10 % de réduction sur votre première commande"} />
+              <Header />
+              {children}
+              <Footer />
+            </>
+          ) : (
+            <Timer setIsTimerDown={setIsTimerDown} />
+          )}
         </body>
       </html>
     </AppContext.Provider>
