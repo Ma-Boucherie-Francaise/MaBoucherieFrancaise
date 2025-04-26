@@ -1,7 +1,10 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
+import content from "@/app/_data/content.json";
 
 const Timer = ({ setIsTimerDown }) => {
+  if (!content.time) return;
+
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -10,7 +13,7 @@ const Timer = ({ setIsTimerDown }) => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-05-31T23:59:59").getTime();
+    const targetDate = new Date(content.time).getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();

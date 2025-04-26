@@ -9,6 +9,7 @@ import Loader from "./_components/Loader";
 import CustomCursor from "./_components/CustomCursor";
 import Popup from "./_components/Popup";
 import { createContext, useState } from "react";
+import content from "@/app/_data/content.json";
 import Timer from "./_components/Timer";
 
 export const AppContext = createContext();
@@ -34,7 +35,9 @@ export default function RootLayout({ children }) {
         <body
           className={`${awesomeSerif.variable} ${golosText.variable} antialiased `}
         >
-          {isTimerDown ? (
+          {!isTimerDown && content.time ? (
+            <Timer setIsTimerDown={setIsTimerDown} />
+          ) : (
             <>
               <CustomCursor />
               <Loader isLoading={isLoading} setIsLoading={setIsLoading} />
@@ -44,8 +47,6 @@ export default function RootLayout({ children }) {
               {children}
               <Footer />
             </>
-          ) : (
-            <Timer setIsTimerDown={setIsTimerDown} />
           )}
         </body>
       </html>
