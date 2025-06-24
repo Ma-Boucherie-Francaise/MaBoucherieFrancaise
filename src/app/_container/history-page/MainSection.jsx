@@ -18,13 +18,13 @@ const MainSection = () => {
     }),
   };
   return (
-    <main className="bg-[var(--color-secondary)] text-white px-5 py-[90px] md:py-28">
-      <div className="max-w-[1440px] mx-auto">
+    <main className="bg-[var(--color-secondary)] text-white">
+      <section className="max-w-[1440px] mx-auto py-[90px] md:pb-28 px-5">
         <header>
           <h1 className="text-6xl sm:text-8xl leading-16 sm:leading-24 mb-5">
             {content.pages.history.title}
           </h1>
-          <p className="text-sm font-medium md:text-lg md:w-4/5">
+          <p className="text-sm font-normal md:text-lg lg:text-2xl md:w-4/5">
             {content.pages.history.intro}
           </p>
         </header>
@@ -101,7 +101,7 @@ const MainSection = () => {
         </div>
         {/* Bon contre avis */}
         <div></div>
-      </div>
+      </section>
     </main>
   );
 };

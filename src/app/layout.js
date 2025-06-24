@@ -35,9 +35,9 @@ export default function RootLayout({ children }) {
         <body
           className={`${awesomeSerif.variable} ${golosText.variable} antialiased `}
         >
-          {/* {!isTimerDown && content.time ? (
+          {!isTimerDown && content.time ? (
             <Timer setIsTimerDown={setIsTimerDown} />
-          ) : ( */}
+          ) : (
             <>
               <CustomCursor />
               <Loader isLoading={isLoading} setIsLoading={setIsLoading} />
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
               {children}
               <Footer />
             </>
-          {/* )} */}
+          )}
         </body>
       </html>
     </AppContext.Provider>
