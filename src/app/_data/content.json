@@ -196,7 +196,13 @@
                             "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Aiguillette.jpg", "width": 1772, "height": 1772},
                             "cutting": "Aiguilletes",
                             "href": "/"
-                        },                      
+                        },   {
+                            "name": "Aiguillettes de Poulet Fermier",
+                            "startingPrice": 10.99,
+                            "image": {"href": "/images/content/cutting/volaille/Volaille_Dinde_Aiguillette.jpg", "width": 1772, "height": 1772},
+                            "cutting": "Aiguilletes",
+                            "href": "/"
+                        },                                    
                         {
                             "name": "Dinde en Cube",
                             "startingPrice": 10.99,
