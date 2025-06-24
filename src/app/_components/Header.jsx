@@ -25,7 +25,7 @@ const Header = () => {
             }
             width={208}
             height={55}
-            className="w-[172px] h-auto"
+            className="w-[172px] h-[45px]"
             alt="Logo de Ma Boucherie Française"
           />
         </Link>
