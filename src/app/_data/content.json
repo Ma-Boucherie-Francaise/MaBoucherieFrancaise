@@ -533,7 +533,7 @@
                         "image": {"href": "/images/content/cutting/boeuf/Boeuf_Wellington.jpg", "width": 1772, "height": 1772},
                         "cutting": "Wellington",
                         "href": "/"
-                    } 
+                    }                    
                 ],
                 "Porc": [
                     {
@@ -771,7 +771,7 @@
                     },     
                     {
                         "name": "Poitrine d'Agneau",
-                        "startingPrice": 10.99,
+                        "startingPrice": 11.99,
                         "image": {"href": "/images/content/cutting/agneau/Agneau_Poitrine.jpg", "width": 1772, "height": 1772},
                         "cutting": "Poitrine",
                         "href": "/"
