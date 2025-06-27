@@ -72,9 +72,11 @@ Si vous ne souhaitez pas cloner le dépôt localement, vous pouvez modifier un f
 
 2. **Naviguez jusqu’au fichier**  
    Cliquez sur les dossiers pour trouver le fichier que vous voulez modifier (`src/app/_data/content.json`).
+   Pour ajouter une image, se rendre à `public/images`, et se rendre dans le dossier désiré.
 
 3. **Cliquez sur l’icône ✏️ (Edit this file)**  
    En haut à droite de la vue du fichier, cliquez sur le petit crayon.
+   Pour ajouter une image cliquer sur "Add File" (Ajouter fichier)
 
 
 4. **Apportez vos modifications**  
