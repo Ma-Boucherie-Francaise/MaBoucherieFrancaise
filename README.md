@@ -62,41 +62,68 @@ yarn start
 
 ---
 
-## 5. Modifier un fichier directement sur GitHub
+## 5. Modifier un fichier ou ajouter une image directement sur GitHub
 
-Si vous ne souhaitez pas cloner le dépôt localement, vous pouvez modifier un fichier **directement** depuis l’interface web de GitHub :
+### 📝 Modifier un fichier
 
 1. **Accédez à votre dépôt**  
-   Ouvrez votre navigateur et allez sur :  
+   Ouvrez votre navigateur et rendez‑vous sur :  
    `https://github.com/Ma-Boucherie-Francaise/MaBoucherieFrancaise`
 
 2. **Naviguez jusqu’au fichier**  
-   Cliquez sur les dossiers pour trouver le fichier que vous voulez modifier (`src/app/_data/content.json`).
-   Pour ajouter une image, se rendre à `public/images`, et se rendre dans le dossier désiré.
+   Par exemple :  
+   `src/app/_data/content.json`
 
-3. **Cliquez sur l’icône ✏️ (Edit this file)**  
-   En haut à droite de la vue du fichier, cliquez sur le petit crayon.
-   Pour ajouter une image cliquer sur "Add File" (Ajouter fichier)
+3. **Cliquez sur l’icône ✏️ (Modifier ce fichier)**  
+   En haut à droite de la vue du fichier, cliquez sur l’icône en forme de crayon.
 
-
-4. **Apportez vos modifications**  
-   Le contenu du fichier devient éditable :  
-   - Modifiez le texte ou le code ligne par ligne.  
-   - Pour ajouter une nouvelle ligne, placez votre curseur à la fin de la ligne précédente et appuyez sur **Entrée**.
+4. **Effectuez vos modifications**  
+   - Modifiez le contenu ligne par ligne.  
+   - Ajoutez ou supprimez des lignes selon vos besoins.
 
 5. **Rédigez un message de commit**  
-   En bas de la page, sous _“Commit changes”_, saisissez :
-   - **Titre du commit** : court résumé des changements (ex. “Ajout d'un nouveau produit”)  
-   - **Description (optionnelle)** : détails supplémentaires si nécessaire.
+   - **Titre** : résumé succinct (ex. “Ajout d’un nouveau produit”)  
+   - **Description** : détails facultatifs
 
-6. **Choisissez la branche de destination**  
-   - **Commit directly to the `main` branch**  
-
-7. **Validez votre commit**  
+6. **Validez vos modifications**  
    Cliquez sur **“Commit changes”**.
 
-8. **Mise en ligne**
-   Le site se mettra à jour tout seul. (En fonction de où il est hébergé)
+---
+
+### 🖼️ Ajouter une image (par ex. photo d’une découpe de viande)
+
+1. **Accédez au dossier d’images**  
+   Dans votre dépôt, allez dans :  
+   `public/images/content/cutting`
+
+2. **Choisissez le sous-dossier approprié**  
+   Chaque découpe a son propre dossier, par exemple :  
+   - `public/images/content/cutting/volaille`  
+   - `public/images/content/cutting/boeuf`  
+   - `public/images/content/cutting/porc`
+
+3. **Ajoutez votre image**  
+   - Cliquez sur **“Add file”** (en haut à droite)  
+   - Sélectionnez **“Upload files”**
+
+4. **Téléchargez l’image**  
+   - Glissez‑déposez ou sélectionnez votre fichier  
+   - Formats recommandés : `.jpg`, `.png`, `.webp`  
+   - Nom de fichier sans accents ni espaces (ex. `entrecote-01.jpg`)
+
+5. **Rédigez un message de commit**  
+   - **Titre** : `Ajout image entrecote`  
+   - **Description** : `Ajout de entrecote-01.jpg dans cutting/entrecote`
+
+6. **Validez vos modifications**  
+   - Branche : **`main`**  
+   - Cliquez sur **“Commit changes”**
+  
+7. **Lier l'image aux produits**
+   - Dans le fichier `_data/content.json`, ajouter le chemin de l'image `images/content/cutting/NOM_CATEGORIE/NOM_IMAGE.EXTENSION`
+
+7. ✅ **Déploiement automatique**  
+   Votre site se mettra à jour automatiquement.  
 
 ---
 
