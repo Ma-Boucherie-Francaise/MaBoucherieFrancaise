@@ -1,6 +1,7 @@
-{"time": "2024-08-01T10:00:00"},
-{"cursor_img" : "/images/content/Pic_MBF_Solo-02.png",
-    "header": {
+{
+    "time": "2024-08-01T10:00:00",
+"cursor_img" : "/images/content/Pic_MBF_Solo-02.png",
+"header": {
         "cart": {
             "href":"/"
         },
