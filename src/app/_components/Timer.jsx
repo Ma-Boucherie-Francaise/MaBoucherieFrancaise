@@ -14,6 +14,11 @@ const Timer = ({ setIsTimerDown }) => {
 
   useEffect(() => {
     const targetDate = new Date(content.time).getTime();
+    if (isNaN(parsedDate)) {
+      setIsTimerDown(true);
+      console.error("Invalid date:", content.time);
+      return;
+    }
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
