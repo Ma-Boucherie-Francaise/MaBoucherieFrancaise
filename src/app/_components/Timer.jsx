@@ -14,6 +14,10 @@ const Timer = ({ setIsTimerDown }) => {
 
   useEffect(() => {
     const targetDate = new Date(content.time).getTime();
+    if (isNaN(targetDate)) {
+      setIsTimerDown(true);
+      return;
+    }
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -47,9 +51,9 @@ const Timer = ({ setIsTimerDown }) => {
           height={124}
           className=""
         />
-        <div className="text-white pt-5 pb-2.5 font-light text-center">
+        <p className="text-white pt-5 pb-2.5 font-light text-center">
           {content.time_subtitle}
-        </div>
+        </p>
         <div className="grid grid-cols-4 gap-4 text-white">
           <div className="text-center">
             <div className="text-4xl font-bold">{timeLeft.days}</div>
