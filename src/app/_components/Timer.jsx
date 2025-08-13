@@ -14,10 +14,6 @@ const Timer = ({ setIsTimerDown }) => {
 
   useEffect(() => {
     const targetDate = new Date(content.time).getTime();
-    // if (isNaN(targetDate)) {
-    //   setIsTimerDown(true);
-    //   return;
-    // }
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
