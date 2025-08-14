@@ -14,7 +14,7 @@ const Timer = ({ setIsTimerDown }) => {
 
   useEffect(() => {
     const targetDate = new Date(content.time).getTime();
-    if (isNaN(parsedDate)) {
+    if (isNaN(targetDate)) {
       setIsTimerDown(true);
       console.error("Invalid date:", content.time);
       return;
