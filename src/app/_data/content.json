@@ -180,8 +180,10 @@
 
         },
         "products": {
-            "title": "Nos Produits",            
-            "hero": [
+            "title": "Nos Découpes", 
+             "title": "La Promesse de l'Excellence",
+                "first_text" : "Nous garantissons la provenance de nos viandes uniquement française et nous fournissons la traçabilité de tous nos produits.",
+            "hero": 
                 {"src": "/images/content/categorie-agneau.webp", "width": 2813, "height": 1584, "name": "L'Agneau", "underName": "Bleu du maine"},
                 {"src": "/images/content/categorie-boeuf.webp", "width": 4134, "height": 2327, "name": "Le Boeuf", "underName": "Fermier du maine"},
                 {"src": "/images/content/categorie-porc.webp", "width": 2813, "height": 1584, "name": "Le Porc", "underName": "Sud Ouest"},
