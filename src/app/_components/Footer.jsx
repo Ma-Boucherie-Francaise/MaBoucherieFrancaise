@@ -1,4 +1,4 @@
-"use client";
+Nos découpesNos découpesNos découpes"use client";
 import React from "react";
 import PrimaryButton from "./PrimaryButton";
 import Image from "next/image";

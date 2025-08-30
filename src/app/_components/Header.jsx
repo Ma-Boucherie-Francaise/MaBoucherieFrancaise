@@ -1,4 +1,4 @@
-"use client";
+Nos découpesNos découpesNos découpes"use client";
 import Image from "next/image";
 import Link from "next/link";
 import content from "@/app/_data/content.json";

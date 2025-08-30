@@ -1,4 +1,4 @@
-import Image from "next/image";
+Nos découpesNos découpesNos découpesimport Image from "next/image";
 import React, { Suspense } from "react";
 import ProductSection from "../_container/product-page/ProductSection";
 import HeroSection from "../_container/product-page/HeroSection";

@@ -1,4 +1,4 @@
-import React from "react";
+Nos découpesNos découpesNos découpesNos découpesimport React from "react";
 import QuestionSection from "../_container/faq-page/QuestionSection";
 
 export const metadata = {
