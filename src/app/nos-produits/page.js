@@ -4,7 +4,7 @@ import ProductSection from "../_container/product-page/ProductSection";
 import HeroSection from "../_container/product-page/HeroSection";
 
 export const metadata = {
-  title: "Nos Produits - Ma Boucherie Française | Viandes d'exception",
+  title: "Nos Découpes - Ma Boucherie Française | Viandes d'exception",
   description:
     "Découvrez notre Nos produits et laissez-vous tenter par une sélection raffinée de viandes françaises d'exception, alliant tradition et modernité. Commandez en ligne dès maintenant !",
   keywords:
