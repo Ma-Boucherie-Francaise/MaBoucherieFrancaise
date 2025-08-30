@@ -57,7 +57,7 @@
                 "cta": {"text": "Découvrez notre histoire", "href": "/notre-histoire"}
             },
             "products": {
-                "title": "Nos Produits",
+                "title": "Nos Découpes",
                 "category": [
                     {
                       "image": {"href": "/images/content/categorie-agneau.webp", "width": 2813, "height": 1584},
