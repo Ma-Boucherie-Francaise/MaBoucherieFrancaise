@@ -4,13 +4,13 @@ import ProductSection from "../_container/product-page/ProductSection";
 import HeroSection from "../_container/product-page/HeroSection";
 
 export const metadata = {
-  title: "Nos Produits - Ma Boucherie Française | Viandes d'exception",
+  title: "Nos Découpes - Ma Boucherie Française | Viandes d'exception",
   description:
     "Découvrez notre Nos produits et laissez-vous tenter par une sélection raffinée de viandes françaises d'exception, alliant tradition et modernité. Commandez en ligne dès maintenant !",
   keywords:
     "catalogue produit, boucherie en ligne, viande française, bœuf, agneau, volaille, viande de qualité, terroir",
   openGraph: {
-    title: "Nos Produits - Ma Boucherie Française | Viandes d'exception",
+    title: "Nos Découpes - Ma Boucherie Française | Viandes d'exception",
     description:
       "Parcourez notre catalogue et découvrez une gamme variée de viandes françaises premium, élaborée pour satisfaire les palais les plus exigeants. Fraîcheur et qualité garanties.",
     url: "https://www.maboucheriefrancaise.com/nos-produits",
